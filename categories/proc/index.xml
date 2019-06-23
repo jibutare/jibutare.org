@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proc on jibutare</title>
+    <link>https://jibutare.org/categories/proc/</link>
+    <description>Recent content in proc on jibutare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Dec 2017 20:44:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://jibutare.org/categories/proc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo &#43; GitHub Pages &#43; カスタムドメイン &#43; SSLでブログを公開するまでのメモ </title>
+      <link>https://jibutare.org/github-pages-hugo-customdomain-ssl/</link>
+      <pubDate>Sat, 09 Dec 2017 20:44:14 +0900</pubDate>
+      
+      <guid>https://jibutare.org/github-pages-hugo-customdomain-ssl/</guid>
+      <description>前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
+要件  GitHub Pages + Hugo リポジトリ username.github.io Hugo Theme 独自ドメイン SSL  レシピ  GitHub Pages Basics Hugo | Quick Start Hugo Themes | Minimo GitHub Pages + CloudFlare で独自ドメインをSSL化する  作業 1.GitHub Pages + Hugo
+GitHub Pages Basicsを何度も読みました。
+ username.github.io username/repository name  前者と後者、どちらにするか迷いました。
+username.github.io master or gh-pages branchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
+username/repository name /docs folderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
+ publishDir = &amp;ldquo;docs&amp;rdquo;
+ ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
+解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</description>
+    </item>
+    
+  </channel>
+</rss>

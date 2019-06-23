@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAS on jibutare</title>
+    <link>https://jibutare.org/tags/nas/</link>
+    <description>Recent content in NAS on jibutare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 31 Dec 2017 15:14:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://jibutare.org/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TS-231Pを購入しました</title>
+      <link>https://jibutare.org/2017/12/ts-231p/</link>
+      <pubDate>Sun, 31 Dec 2017 15:14:38 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2017/12/ts-231p/</guid>
+      <description>TS-231Pを購入しました。
+これまでNASは、HP ProLiant MicroServer Turion II NEO N40LにNAS4Freeをインストールして、RAID-Zで運用していました。いまでもこれで事足りています。
+とはいえ、QNAPやSynologyの記事を読んでいますと、豊富な機能が搭載されたNASを触ってみたくなりTS-231Pを選びました。
+構成は、WD30EFRX+WD Blue WD40EZRZ/AFP2です。3TBの赤と4TBの青(*1)。中途半端な構成です(笑)
+赤の3TBがデータ用、青の4TBはバックアップ用(1TBはTime Machine用に割り当て)です。RAID1で運用しなかった理由はバックアップです。万が一、TS-231Pが故障してしまったら、別の機種へシステム移行できる参照ようですが、バックアップをとっていないと不安で落ち着きません。NAS4FreeのRAID-Zは外付けHDDにバックアップをとっています。というわけで、TS-231Pも中途半端な構成で運用しはじめました。
+余談ですが、以前、仕事先で4ベイのNASを拝見しました。RAID5での運用です。私が「バックアップはどうしていらっしゃいますか?」と質問したら、「とっていない」とのお返事。私の絶句した顔を怪訝そうにご覧になったあと、「(業者さんが)RAID5だらか大丈夫だって言ってよ」と微笑んでいました。命の次に大事なデータを保存しているとの由。命まで奪われないし、藪をつついて蛇を出したくなかったのですが、「もう一度、業者さんにバックアップをとってなくて大丈夫か?と質問してみてください」とだけお伝えしました。
+TS-231Pはとにかく便利 TS-231Pに文書、画像、動画、音楽などのデータを保存しておけば、パソコン、タブレット、スマートフォンから利用できます。外出先からもアクセスできます。
+ファイル共有などNAS4Freeでも同じことはできます。大きな違いは設定の手間です。たとえば、外出先から自宅のNASへアクセスしたいとき、
+ サーバー側のファイル共有 VPN(ルーターを含む) クライアント側で使うソフトウェア 名前解決  などを設定します。
+NAS4Freeですと、1.はブラウザの管理画面、2.はルーターの管理画面、3.は検索で探してきてインストールしてセットアップします。さらに4.はやっかいです。
+TS-231Pは、1.から4.までの設定をブラウザからQTSへログインして設定できます。
+HP ProLiant MicroServer Turion II NEO N40Lはパソコン、TS-231PはNASキットですから、比較自体が無意味なのですが、近ごろのNASキットの進化を体験できました。
+ベンチマーク ベンチマークを計測する習慣がなく、数字の意味を理解できないのですが、記事に頻出しているようですし計測してみました。
+[Windows7]
+[Windows8.1]
+参考にNAS4Freeも計測してみました。
+[Windows7]
+[Windows8.1]
+TS-251+が欲しくなる 豊富な機能を試したくなりますが、メモリの消費が気がかりです。TS-231Pのシステムメモリは1GBです。リソースモニターをチェックしてみたらスワップファイルは使っていません。それでも1GBだと心もとないですね。
+TS-231Pを運用したらすぐにTS-251+が欲しくなりました。TS-251+はメモリを交換できます。仮想環境やWordPressを稼働させたり、全文検索ツールを使ってみたいです。NAS4Freeの容量を拡張して、TS-251+とNAS4FreeとでRsyncのバックアップ環境を構築したりと、用途がひろがりそうです。
+いままでPC+NAS OSの組み合わせで充分だったのに、NASキットの進化を体験したら、PC+NAS OSを主体とした運用がもう面倒に感じられてきて、楽なほうに慣れてしまうのも困りものです(笑)
+QNAPにしろSynologyにしろ、主な用途がファイル共有であればエントリーモデルで間に合いそうです。ただ、ファイル共有以外の機能を使ってあれこれしたいとなると、はじめから上位機種を選んだほうがよいですね。</description>
+    </item>
+    
+  </channel>
+</rss>
