@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>github</title>
-      <link>https://jibutare.org/tags/github/</link>
+      <title>hugo, github</title>
+      <link>https://jibutare.org/tags/hugo-github/</link>
       <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
       
-      <guid>https://jibutare.org/tags/github/</guid>
+      <guid>https://jibutare.org/tags/hugo-github/</guid>
       <description></description>
     </item>
     
@@ -47,20 +47,20 @@
     </item>
     
     <item>
-      <title>Hugoの設定</title>
-      <link>https://jibutare.org/tags/hugo/</link>
-      <pubDate>Sat, 09 Dec 2017 20:44:14 +0900</pubDate>
-      
-      <guid>https://jibutare.org/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Appleにまつわるお話</title>
       <link>https://jibutare.org/tags/apple/</link>
       <pubDate>Wed, 06 Dec 2017 18:07:38 +0900</pubDate>
       
       <guid>https://jibutare.org/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugoの設定</title>
+      <link>https://jibutare.org/tags/hugo/</link>
+      <pubDate>Fri, 01 Dec 2017 18:17:56 +0900</pubDate>
+      
+      <guid>https://jibutare.org/tags/hugo/</guid>
       <description></description>
     </item>
     

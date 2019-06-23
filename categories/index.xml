@@ -11,9 +11,18 @@
     
     
     <item>
+      <title>proc</title>
+      <link>https://jibutare.org/categories/proc/</link>
+      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      
+      <guid>https://jibutare.org/categories/proc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Misc</title>
       <link>https://jibutare.org/categories/misc/</link>
-      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      <pubDate>Fri, 21 Jun 2019 17:05:13 +0900</pubDate>
       
       <guid>https://jibutare.org/categories/misc/</guid>
       <description></description>
@@ -25,15 +34,6 @@
       <pubDate>Mon, 07 Jan 2019 09:59:34 +0900</pubDate>
       
       <guid>https://jibutare.org/categories/device/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>proc</title>
-      <link>https://jibutare.org/categories/proc/</link>
-      <pubDate>Sat, 09 Dec 2017 20:44:14 +0900</pubDate>
-      
-      <guid>https://jibutare.org/categories/proc/</guid>
       <description></description>
     </item>
     
