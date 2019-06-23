@@ -5,7 +5,7 @@
     <link>https://jibutare.org/</link>
     <description>Recent content in Home on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Jun 2019 17:05:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 16:50:56 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,20 @@
       <guid>https://jibutare.org/about/</guid>
       <description> 骨董（こっとう）の世界に「じぶたれる」という言葉がある。品が悪くて感心できぬものを評する言葉で、今少しで本筋の美に到達できず、物欲しげな境地に終わってしまった器物をいう。「じぶたれ茶わん」「じぶたれ道具」という言い方もある▲漢字を当てれば、うぬぼれを表す「自負たれ」だろうと中島誠之助（なかじませいのすけ）さんの「体験的骨董用語録」（ちくま文庫）は推測する。 余録：骨董の世界に「じぶたれる」という言葉がある… - 毎日新聞 
  </description>
+    </item>
+    
+    <item>
+      <title>&lt;username&gt;.github.ioにカスタムドメインを割り当てない </title>
+      <link>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</link>
+      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</guid>
+      <description>GitHub Pages でブログを運用するとき
+&amp;lt;username&amp;gt;.github.io  に、カスタムドメインを割り当てていました。当初は理解しないで見よう見まねで公開できて喜んでいたのですが、今となっては不便です。
+User, Organization, and Project Pages
+というのも、もう一つカスタムドメインを割り当てたくても
+&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname&amp;gt;  には無理ですね(あたりまえなのですが&amp;hellip;)。なので
+&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-A&amp;gt; = a.com &amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-B&amp;gt; = b.com  こういう形式を採用しなければならないとようやく理解できました。というわけで、さっそくデータを引っ越しました。</description>
     </item>
     
     <item>

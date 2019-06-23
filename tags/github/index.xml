@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on jibutare</title>
+    <link>https://jibutare.org/tags/github/</link>
+    <description>Recent content in github on jibutare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 23 Jun 2019 16:50:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://jibutare.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&lt;username&gt;.github.ioにカスタムドメインを割り当てない </title>
+      <link>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</link>
+      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</guid>
+      <description>GitHub Pages でブログを運用するとき
+&amp;lt;username&amp;gt;.github.io  に、カスタムドメインを割り当てていました。当初は理解しないで見よう見まねで公開できて喜んでいたのですが、今となっては不便です。
+User, Organization, and Project Pages
+というのも、もう一つカスタムドメインを割り当てたくても
+&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname&amp;gt;  には無理ですね(あたりまえなのですが&amp;hellip;)。なので
+&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-A&amp;gt; = a.com &amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-B&amp;gt; = b.com  こういう形式を採用しなければならないとようやく理解できました。というわけで、さっそくデータを引っ越しました。</description>
+    </item>
+    
+  </channel>
+</rss>
