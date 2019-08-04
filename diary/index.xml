@@ -5,10 +5,28 @@
     <link>https://jibutare.org/diary/</link>
     <description>Recent content in Diary on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Jun 2019 16:50:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2019 14:22:31 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/diary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lenovo Chromebook S330を購入しました</title>
+      <link>https://jibutare.org/2019/08/lenovo-chromebook-s330/</link>
+      <pubDate>Sun, 04 Aug 2019 14:22:31 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2019/08/lenovo-chromebook-s330/</guid>
+      <description>はじめてのChromebookです。開封して電源ボタンを押して5分ほどで、Google ChromeでTweetDeckへアクセスできました。驚きました。簡単な感想をまとめます。
+驚いたこと  はじめのセッティングが簡単(Gmailのアカウントを持っていたらスムーズ) 起動時間が約10秒 バックアップとリストアに手間取らない FキーとCapsキーがない Linux(Debian stretch)が便利  他と比べても仕方ないこと  画面とキーボードの品質 自動更新ポリシーが2022年6月30日 ATOK Passportが使えない  開封して電源ボタンを押す Chromebook に移行する に示されているとおり、Google アカウントはGoogle Oneと紐づけします。はじめからGoogle アカウントを持っていたら、ログインするだけです。
+Chromebook を設定する とおりに進めます。はじめて使う人でも迷いません。つまづくとしたら、Wi-Fiへ接続するパスワードを忘れたときぐらいだと思います。
+前提がオンラインでの使用です。バックアップとリストアに手間取りません。アカウント設定を同期する ので、Chromebookを買い換えるときもアカウントにログインすれば設定はクラウドと同期していますから、バックアップしている感覚はありません。ファイルはGoogle Drive、写真はGoogleフォトにそれぞれ保存できます。Chromebook をオフラインで使用する ときはファイルをローカルに保存して、オンラインに接続したら同期できます。
+ファイルはどこ? 保存場所は、shift + alt + m を押せば標準のファイルへアクセスします。 ファイル管理の設計がシンプルです。SDカードを購入して、そこにWindowsやMacのようなディレクトリを作成したほうがよいのではないかと不安に感じるほどでした。でも思いとどまっています。Chromebookの設計に作業を合わせてみたくなりました。ファイルはすべてGoogle Oneに保存して、ローカルのディレクトリを複雑にしないで使っています。
+画像のファイルに表示されているQNAPへのアクセスも簡単です。Chromebooks で使用できるファイル形式と外部デバイス のクラウド ストレージに記載されている手順どおりでQNAPへアクセスできました。最初、AndroidアプリのQfileをインストールして使いましたが必要なくなりそうです。Androidアプリはできるだけインストールしたくありませんのでありがたいです。
+電源ボタンを押してから今まで 8月3日に受け取りこの記事をアップロードするまでセッティングを含めてS330をずっと操作しています。S330で事足りています。ただし、ショートカットキーを覚えてキーボードに慣れるまで時間はかかりそう。あとはATOK Passportが使えないので広辞苑をはじめてする辞書の代替を思案中です。
+いま開いているChromeのタブ数は15です。Linux(Debian stretch)のVS Codeを起動しています。動作は安定していて不満はありません。
+割り切る ディスプレイとキーボードの品質は割り切っています。いつも使っているデバイスです。
+ Mac mini (2018)  HHKB Professional BT Magic Trackpad 2 CX241  Mac mini(Late 2014) MacBook Pro (Retina, 13-inch, Early 2015) # iPad Pro (10.</description>
+    </item>
     
     <item>
       <title>&lt;username&gt;.github.ioにカスタムドメインを割り当てない </title>
