@@ -11,7 +11,7 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
  publishDir = &ldquo;docs&rdquo;
  ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
 解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。'>
-<meta name='theme-color' content='#546e7a'>
+<meta name='theme-color' content='#c51162'>
 
 <meta property='og:title' content='Hugo &#43; GitHub Pages &#43; カスタムドメイン &#43; SSLでブログを公開するまでのメモ  • jibutare'>
 <meta property='og:description' content='前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
@@ -35,7 +35,7 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
   
   <link rel='icon' href='/favicon.ico'>
 <link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
-:root{--color-accent:#546e7a;}
+:root{--color-accent:#c51162;}
 </style>
 
   
@@ -54,6 +54,8 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
         <a href='/docs/'>Docs</a>
       </li><li class='item'>
         <a href='/about/'>About</a>
+      </li><li class='item'>
+        <a href='https://hechikan.com/'>Photo</a>
       </li></ul>
   </div>
 </nav><div class='header-widgets'>
@@ -241,7 +243,7 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
   
 </svg>
 <span class='screen-reader-text'>: </span>
-      <time class='entry-date' datetime='2018-12-04T17:38:49&#43;09:00'>2018-12-04</time>
+      最終更新: <time class='entry-date' datetime='2018-12-04T17:38:49&#43;09:00'>2018-12-04</time>
     </div><div class='categories'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
@@ -263,7 +265,31 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
 </article>
 
 
-
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jibutare" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  </div>
+</section>
 
       </main>
 

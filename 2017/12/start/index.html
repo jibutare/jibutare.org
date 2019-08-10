@@ -3,7 +3,7 @@
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='タイトルのとおりです(笑)'>
-<meta name='theme-color' content='#546e7a'>
+<meta name='theme-color' content='#c51162'>
 
 <meta property='og:title' content='GitHub Pages &#43; Hugoでブログを始めます • jibutare'>
 <meta property='og:description' content='タイトルのとおりです(笑)'>
@@ -19,7 +19,7 @@
   
   <link rel='icon' href='/favicon.ico'>
 <link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
-:root{--color-accent:#546e7a;}
+:root{--color-accent:#c51162;}
 </style>
 
   
@@ -38,6 +38,8 @@
         <a href='/docs/'>Docs</a>
       </li><li class='item'>
         <a href='/about/'>About</a>
+      </li><li class='item'>
+        <a href='https://hechikan.com/'>Photo</a>
       </li></ul>
   </div>
 </nav><div class='header-widgets'>
@@ -142,7 +144,31 @@
 </nav>
 
 
-
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jibutare" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  </div>
+</section>
 
       </main>
 
