@@ -1,7 +1,8 @@
 /* Custom CSS */
-body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Apple Color Emoji,Segoe UI Emoji, sans-serif; line-height:1.65;}
-.title,h1,h2,h3,h4,h5,h6{color:#212121;font-weight:500;font-feature-settings:"palt";letter-spacing:.025em;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Open Sans','Helvetica Neue','Hiragino Kaku Gothic ProN',YuGothic,'Yu Gothic','游ゴシック体','游ゴシック',Meiryo,sans-serif;font-kerning:auto;font-variant-ligatures:none;font-feature-settings:"palt";letter-spacing:.016em;line-height:1.75;overflow-wrap:break-word;}
+.title,h1,h2,h3,h4,h5,h6{color:#212121;font-weight:500;letter-spacing:.031em;}
 .entry-meta span{font-size:.9375em;margin-right:.75em;font-style:normal;}
-.entry-content {color:#263238;text-align:justify;letter-spacing:-.02em;line-height:2;}
+.entry-content {color:#263238;line-height:2;letter-spacing:.016em;text-align:left;}
+.entry-content > p {text-align:justify;}
 blockquote {font-size: 1em; font-style: normal;}
 .entry-nav div a{display:block;font-style:normal;}
