@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jibutare</title>
@@ -6,10 +6,26 @@
     <description>Recent content on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Aug 2019 14:50:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2019 20:56:27 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/authors/jibutare/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Intel 660P 1TB(SSDPEKNW010T8X1)を購入しました</title>
+      <link>https://jibutare.org/2019/11/intel-660p-1tb-review/</link>
+      <pubDate>Sun, 10 Nov 2019 20:56:27 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2019/11/intel-660p-1tb-review/</guid>
+      <description>インテル&amp;#174;SSD660P シリーズ SSDPEKNW010T8X1 を購入しました。
+Mac mini 2018 に接続しています。ORICO USB-C NVME M.2 SSD ケース に アイネックス AINEX M.2 SSD 用ヒートシンク を貼って使っています。用途は OneDrive や Google ドライブ、 VMware Fusion の仮想ファイルの保存先です。
+ベンチマーク 検索して見よう見まねで測定しました。精密な設定ではないと思います。
+感想 QLC, SLC, NAND, 素子などの点は知りませんので、体感的な感想です。
+ 発熱 速度  熱い。これにつきます。VMware Fusion の仮想ファイルをコピーしたら、じっと触っていられませんでした。コピーは SATA より速いです。ただ、途中で速度低下します。発熱量が増大するせいでしょうか?
+発熱量と関係しているか不明ですが、10月に VMware Fusion 11 で Windows 10(1903) の累積アップデートをインストール中に 660p が Mac からアンマウントされました。正確にはアンマウントではなく、強制的にケーブルを外した際の警告が表示され、すぐに再接続されました。VMware Fusion 11 は、「ファイルをロックできませんでしたエラー」と表示して、強制終了しました。幸いにも「内部エラー」の起動できなくなる事態は免れました。セーフモードで起動を確認したあと、アップデートを再試行したら同じ現象が 2回続きました。
+それ以外はエラーも発生しないで安定して動作しています。
+体感できた速度は、VMware Fusion 11 の Windows 10 の起動です。HOME のハードディスクの詳細オプションは NVMe に変更して、Pro は SCSI (デフォルト)のままです。両者の起動は、 HOME が速いです。起動してしまえば体感速度は変わりません。</description>
+    </item>
     
     <item>
       <title>はじめてのノートパソコンにChromebookはすすめられるか?</title>

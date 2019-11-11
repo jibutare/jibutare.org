@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on jibutare</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Authors on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Aug 2019 14:50:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2019 20:56:27 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>jibutare</title>
       <link>https://jibutare.org/authors/jibutare/</link>
-      <pubDate>Tue, 06 Aug 2019 14:50:44 +0900</pubDate>
+      <pubDate>Sun, 10 Nov 2019 20:56:27 +0900</pubDate>
       
       <guid>https://jibutare.org/authors/jibutare/</guid>
       <description></description>
