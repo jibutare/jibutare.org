@@ -6,10 +6,23 @@
     <description>Recent content in 日記 on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 10 Nov 2019 20:56:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 20:19:23 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/diary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows 8.1のOneDriveが、「起動しています」の状態でハングアップ</title>
+      <link>https://jibutare.org/2019/12/windows-onedrive-hang-up/</link>
+      <pubDate>Sun, 01 Dec 2019 20:19:23 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2019/12/windows-onedrive-hang-up/</guid>
+      <description>結論 Windows 8.1(on VMware Fusion) の OneDrive が「起動しています」のままでハングアップして、 OneDrive Sync Engine の停止・再起動を繰り返す場合、もし、 Microsoft アカウントを使ってログインしていたらログオフして、ローカルアカウントでログインして、OneDrive の同期をすべてオフにする。その後、Microsoft アカウントに再ログインしてみる。
+症状 11 月の中旬ぐらいから Windows 8.1(on VMWare Fusion) の OneDrive が、「起動しています」の状態でハングアップしました。
+ ログイン後に OneDrive が起動 タスクバーのアイコンが「起動しています」のまま しばらくして OneDrive Sync Engine の停止 OneDrive Sync Engine が再起動  特に OneDrive Sync Engine の停止と再起動が続き、タスクバーのアイコンが 3 つ並びました。
+トラブルシューティングツールを使うと、OneDrive に接続できない、とのエラーが表示されます。
+確認作業  更新プログラムの確認 更新プログラムのインストールの履歴を確認 プログラムと機能の確認  原因?  OneDrive for Business がインストールされていた  なぜ? Windows 8.1 には OneDrive が組み込まれています。正常に動作していました。また、 Business のアカウントを所有していませんので、過去にインストールしていません。一瞬、マルウェアを疑いました。心当たりはなし。</description>
+    </item>
     
     <item>
       <title>Intel 660P 1TB(SSDPEKNW010T8X1)を購入しました</title>
