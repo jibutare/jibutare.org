@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jibutare</title>
@@ -21,7 +21,7 @@
  はじめてのノートパソコンにChromebookはすすめられるか?
  おすすめできます。Androidのスマートフォンを使っている方はChromebookのUIと操作が似ているので慣れるまで早いと推測します。もともと教育機関で普及していますからどなたにでもおすすめできてあたりまえですが、UIや操作に慣れるまでの時間が短くなれば、その後のアプリケーションの使い方も覚えやすいと思います。
 Chrome OSの設計はシンプルです。あまり迷いません。とにかく 検索 キー を押せば、インストールされているアプリがスマートフォンの画面のように表示されます。したいことを選べます。シェルフ(タスクバーやDockと同じ)からも選べます。
- 文章を作成したいなら 検索 キー を押して&amp;rdquo;ドキュメント&amp;rdquo; 表計算を作成しいなら 検索 キー を押して&amp;rdquo;スプレッドシート&amp;rdquo; 動画を検索したいなら 検索 キー を押して&amp;rdquo;YouTube&amp;rdquo;  作業のアプリをクリックすれば、Chromeが起動して誘導します。作業はChromeに集約されます。当初、私はたじろぎました。Windows, Mac, Android, iOSのように各アプリケーションが起動しないからです。Chromeでの作業は不便に感じます。でもChromeに集中できます(ただしGoogle KeepやPlay系はアプリケーションが起動)。Chromeのショートカットキーを覚えたらアプリケーションとタブをスムーズに移動できて操作の効率が上がりそうです。
+ 文章を作成したいなら 検索 キー を押して&amp;quot;ドキュメント&amp;rdquo; 表計算を作成しいなら 検索 キー を押して&amp;quot;スプレッドシート&amp;rdquo; 動画を検索したいなら 検索 キー を押して&amp;quot;YouTube&amp;rdquo;  作業のアプリをクリックすれば、Chromeが起動して誘導します。作業はChromeに集約されます。当初、私はたじろぎました。Windows, Mac, Android, iOSのように各アプリケーションが起動しないからです。Chromeでの作業は不便に感じます。でもChromeに集中できます(ただしGoogle KeepやPlay系はアプリケーションが起動)。Chromeのショートカットキーを覚えたらアプリケーションとタブをスムーズに移動できて操作の効率が上がりそうです。
  Chromeが起動する Chromeにアプリケーションの画面が表示される Chromeで作業する  この3点がChromebookに慣れるまでの時間を短くしてくれます。Androidのアプリケーションをインストールすれば、スマートフォンと同じように各アプリケーションが起動します。まずはChromeでできることをマスターしてみてください。おすすめです。
 はじめてパソコンを購入した知人 はじめてパソコンを購入した方は、
  操作 発想  に戸惑われます。デスクトップの画面を目にして直感的に操作できなければ、したいことまで進めません。また、できることを発想するまで時間がかかります。
@@ -41,13 +41,13 @@ Chrome OSの設計はシンプルです。あまり迷いません。とにか�
       <description>はじめてのChromebookです。開封して電源ボタンを押して約5分後、Google ChromeからTweetDeckへアクセスできました。簡単な感想をまとめます。
 驚いた  はじめのセッティングが簡単 起動時間が約10秒 バックアップに手間取らない FキーとCapsキーがない Linux(Debian stretch)が便利  仕方ない  画面とキーボードの品質 自動更新ポリシーが2022年6月30日 ATOK Passportが使えない  電源ボタンを押す Chromebook を設定する とおりに進めます。はじめて使う人でも迷いません。つまづくとしたら、アクセスポイントへ接続するためのパスワードを忘れたときぐらいだと思います。私はGoogle アカウントを持っていますので、いつもどおりログインしました。ログインしたらデスクトップが現れてすぐに使えました。
 前提がオンラインです。アカウント設定を同期する ので、Google アカウントにログインすれば、Chromeの設定はクラウドと同期しています。バックアップの感覚はありません。もしChromebookを買い換えたら Chromebook に移行する のとおり移行できます。ファイルはGoogle Drive、写真はGoogle フォトにそれぞれ保存できます。Chromebook をオフラインで使用する ときはファイルをローカルに保存して、オンラインに接続したら同期します。
-ファイルはどこ? ファイルの保存は、shift + alt + m を押せば標準の&amp;rdquo;ファイル&amp;rdquo;へアクセスします。エクスプローラー(Windows)やFinder(Mac)と同じです。
+ファイルはどこ? ファイルの保存は、shift + alt + m を押せば標準の&amp;quot;ファイル&amp;quot;へアクセスします。エクスプローラー(Windows)やFinder(Mac)と同じです。
 ファイル管理の設計がシンプルです。SDカードを購入して、WindowsやMacのようにディレクトリを作成しようかと不安に感じるほどでした。でも思いとどまっています。Chromebookの設計に作業を合わせてみたくなりました。ローカルにディレクトリを作成しないで、ファイルはGoogle Oneに保存、標準のままの構成です。
 上記の画像に表示されているQNAPへのアクセスも簡単です。Chromebooks で使用できるファイル形式と外部デバイス に記載されたクラウド ストレージの手順でQNAPへアクセスできました。AndroidアプリのQfileをインストールしましたがもう使わないでしょう。Androidアプリはできるだけインストールしたくありませんのでありがたいです。
 電源ボタンを押してから現在まで 8月3日に受け取りこの記事をアップロードするまでセッティングを含めてS330をずっと操作しています。S330で事足りています。ただし、ショートカットキーを覚えてキーボードに慣れるまで時間はかかりそう。あとATOK Passportが使えないので広辞苑や英和辞典などの代替を思案中です。
 いま開いているChromeのタブ数は15です。Linux(Debian stretch)のVS Codeを起動しています。動作は安定していて不満はありません。
 割り切る ディスプレイとキーボードの品質は価格相応でしょうから割り切っています。いつも使っているデバイスです。
- Mac mini (2018)  HHKB Professional BT Magic Trackpad 2 CX241  Mac mini(Late 2014) MacBook Pro (Retina, 13-inch, Early 2015) iPad Pro (10.</description>
+ Mac mini (2018)  HHKB Professional BT Magic Trackpad 2 CX241   Mac mini(Late 2014) MacBook Pro (Retina, 13-inch, Early 2015) iPad Pro (10.</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@ User, Organization, and Project Pages
       <pubDate>Fri, 21 Jun 2019 17:05:13 +0900</pubDate>
       
       <guid>https://jibutare.org/2019/06/zojirushi-sm-na48-ba/</guid>
-      <description> よい点  形状がシンプル 保温・保冷が高い 持ったときに滑らない 飲み口が滑らか  こんなものかなと思う点  キャップを分解しにくい あたたかい飲物は気をつけないと顔や服にかかる 移動中にホットコーヒーを飲むために蓋を開けたらしぶきが飛ぶ(毎回ではない) しぶきが服や顔にかかる  </description>
+      <description>よい点  形状がシンプル 保温・保冷が高い 持ったときに滑らない 飲み口が滑らか  こんなものかなと思う点  キャップを分解しにくい あたたかい飲物は気をつけないと顔や服にかかる 移動中にホットコーヒーを飲むために蓋を開けたらしぶきが飛ぶ(毎回ではない) しぶきが服や顔にかかる  </description>
     </item>
     
     <item>
@@ -85,12 +85,13 @@ User, Organization, and Project Pages
 そうこうしていたらAmazonで、ベイパーグローブ4 ウィメンズが6,813円のセール! さらに15%OFFクーポンが付与されて5,791円!! 即決しました。
 足のサイズは約24〜24.5cmで甲高の幅広です。正確に測定したことはありません。いつも25.0cmの靴を選んでいます。親指から先が1cmほど余ります。注文した靴はウィメンズの24.5cm。メンズとの違いがわかりません。メンズより幅が狭いのか、形状が異なるのか。それでも大丈夫だろうと楽観的に到着を待ちました。
 注文日の翌日に届きました。さっそく履いて散歩へ行きました。
- 親指は0.5cm未満のゆとり 幅はジャスト(伸縮するので実際には&amp;rdquo;ややきつめ&amp;rdquo;かもしれません) 軽い とにかく軽い 裸足で歩いているみたい コンクリートの上を歩くと振動が膝からふくらはぎにかけて伝わってくる 土の上を歩くと気持ちよい 土の上からコンクリートへ移動したら振動を強く感じる 歩き方や地面への着地を意識するようになる 1時間以上の徒歩は疲れそう  ウォーキングシューズではないでしょうから使い方が間違っていると思います。でも公式サイトで紹介されている
+ 親指は0.5cm未満のゆとり 幅はジャスト(伸縮するので実際には&amp;quot;ややきつめ&amp;quot;かもしれません) 軽い とにかく軽い 裸足で歩いているみたい コンクリートの上を歩くと振動が膝からふくらはぎにかけて伝わってくる 土の上を歩くと気持ちよい 土の上からコンクリートへ移動したら振動を強く感じる 歩き方や地面への着地を意識するようになる 1時間以上の徒歩は疲れそう  ウォーキングシューズではないでしょうから使い方が間違っていると思います。でも公式サイトで紹介されている
  自分自身の身体の動きを直に感じ、普段は接地しない前足部や中足部が地面に触れることで、ふくらはぎ等の通常時は意識しない筋肉の使用を促し、
  は理解できました。
 とても満足しました。今度はメンズかウィメンズの25.0cmを買って履き比べてみたいです。
 iPhone 8で撮影
- HONZの書評で裸足ランニングについて少し触れられています。https://honz.jp/articles/-/41817 [return]   </description>
+  HONZの書評で裸足ランニングについて少し触れられています。https://honz.jp/articles/-/41817 &amp;#x21a9;&amp;#xfe0e;
+   </description>
     </item>
     
     <item>
@@ -99,7 +100,7 @@ iPhone 8で撮影
       <pubDate>Mon, 07 Jan 2019 09:59:34 +0900</pubDate>
       
       <guid>https://jibutare.org/2019/01/hhkb-professional-bt-us/</guid>
-      <description> 昨年、Mac mini 2018を購入したので、それにあわせてキーボードを新調しました。PFU Happy Hacking Keyboard Professional BT 英語配列/墨 PD-KB600Bです。Amazonアウトレットで購入しました。
+      <description>昨年、Mac mini 2018を購入したので、それにあわせてキーボードを新調しました。PFU Happy Hacking Keyboard Professional BT 英語配列/墨 PD-KB600Bです。Amazonアウトレットで購入しました。
 コンディションは
  商品の上部に小さな傷があります. 商品の下部に小さな傷があります. 外装に多少の損傷があります.
  と記述されていました。到着後、ざっと見たところ傷を判別できません。墨モデルで見つけにくいのかもしれません。外装は説明どおりでした。
@@ -127,7 +128,7 @@ FILCOのキーボードを使ってみたいが&amp;hellip; ところで、Happy
  3.0GHz 6コア第8世代Intel Core i5（Turbo Boost使用時最大4.1GHz） 16GB 2,666MHz DDR4 Intel UHD Graphics 630 256GB SSDストレージ ギガビットEthernet（10/100/1000BASE-TギガビットEthernet、RJ‑45コネクタ使用） アクセサリキット  いま使用中は、Mac mini Late 2014です。
 システム構成:
  2.6GHzデュアルコアIntel Core i5（Turbo Boost使用時最大3.1GHz） 16GB 1,600MHz LPDDR3 SDRAM 256GB PCIeベースフラッシュストレージ Intel Iris Graphics 製品マニュアル アクセサリキット  起動と表示、すべての動作の体感速度が向上しました。ひっかかりがないといいますか、自転車の走行を右から左へ流し見ていたところ、いまは自動車がビュンと通り過ぎるのを流し見るような感覚です(意味不明ですかね)。
-最初の違和感は起動音でした。いつものジャーンが聞こえないので、知っていたとはいえ、すこし戸惑いました。特にNVRAMまたPRAMをリセットするときに、2回目の起動音を目安にして操作しているので最初は不思議な感覚です。あとSMCリセットの操作方法が、これまで使ってきたMacと違います。
+最初の違和感は起動音でした。いつものジャーンが聞こえないので、知っていたとはいえ、すこし戸惑いました。特に[NVRAMまたPRAMをリセットする](Mac で NVRAM または PRAM をリセットする )ときに、2回目の起動音を目安にして操作しているので最初は不思議な感覚です。あとSMCリセットの操作方法が、これまで使ってきたMacと違います。
 ささいな問題がひとつ USB3.1 Gen2に、ineo 2.5インチアルミニウムHDD/SSD用の SATA外付けハードドライブケ―スにSDSSDH3-500G-J25を格納して接続しています。ところが、この外付けケースを接続したまま起動させると、ブートのリンゴマークが表示されまま起動しません。
 電流の影響でしょうか? ログを調べたら原因を突き止められそうですが、めんどうなので推測にとどめています。いったん外して起動させて、ログイン画面で再接続しています。ずっと起動させてたまま使っているため、それほど手間でもありません。通常は週に一度、再起動させています。
 Mac miniはPowerPC G4版から使い始めて4台目です。これまで
@@ -173,12 +174,12 @@ QNAPにしろSynologyにしろ、主な用途がファイル共有であれば�
       <description>前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
 要件  GitHub Pages + Hugo リポジトリ username.github.io Hugo Theme 独自ドメイン SSL  レシピ  GitHub Pages Basics Hugo | Quick Start Hugo Themes | Minimo GitHub Pages + CloudFlare で独自ドメインをSSL化する  作業 1.GitHub Pages + Hugo
 GitHub Pages Basicsを何度も読みました。
- username.github.io username/repository name  前者と後者、どちらにするか迷いました。
-username.github.io master or gh-pages branchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
-username/repository name /docs folderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
+  &amp;lt;code&amp;gt;username.github.io&amp;lt;/code&amp;gt;    &amp;lt;code&amp;gt;username/repository name&amp;lt;/code&amp;gt;    前者と後者、どちらにするか迷いました。
+username.github.io masteror gh-pagesbranchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
+username/repository name /docsfolderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
  publishDir = &amp;ldquo;docs&amp;rdquo;
- ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
-解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</description>
+ ソースファイルと/docsfolderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
+解釈が間違っているかもと思いつつ、username.github.ioでmasterbranchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</description>
     </item>
     
     <item>

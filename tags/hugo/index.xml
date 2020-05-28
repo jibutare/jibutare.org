@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugoの設定 on jibutare</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Hugoの設定 on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Dec 2017 18:17:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 16:50:56 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     

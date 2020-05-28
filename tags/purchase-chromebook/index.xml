@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>purchase, chromebook on jibutare</title>
@@ -20,13 +20,13 @@
       <description>はじめてのChromebookです。開封して電源ボタンを押して約5分後、Google ChromeからTweetDeckへアクセスできました。簡単な感想をまとめます。
 驚いた  はじめのセッティングが簡単 起動時間が約10秒 バックアップに手間取らない FキーとCapsキーがない Linux(Debian stretch)が便利  仕方ない  画面とキーボードの品質 自動更新ポリシーが2022年6月30日 ATOK Passportが使えない  電源ボタンを押す Chromebook を設定する とおりに進めます。はじめて使う人でも迷いません。つまづくとしたら、アクセスポイントへ接続するためのパスワードを忘れたときぐらいだと思います。私はGoogle アカウントを持っていますので、いつもどおりログインしました。ログインしたらデスクトップが現れてすぐに使えました。
 前提がオンラインです。アカウント設定を同期する ので、Google アカウントにログインすれば、Chromeの設定はクラウドと同期しています。バックアップの感覚はありません。もしChromebookを買い換えたら Chromebook に移行する のとおり移行できます。ファイルはGoogle Drive、写真はGoogle フォトにそれぞれ保存できます。Chromebook をオフラインで使用する ときはファイルをローカルに保存して、オンラインに接続したら同期します。
-ファイルはどこ? ファイルの保存は、shift + alt + m を押せば標準の&amp;rdquo;ファイル&amp;rdquo;へアクセスします。エクスプローラー(Windows)やFinder(Mac)と同じです。
+ファイルはどこ? ファイルの保存は、shift + alt + m を押せば標準の&amp;quot;ファイル&amp;quot;へアクセスします。エクスプローラー(Windows)やFinder(Mac)と同じです。
 ファイル管理の設計がシンプルです。SDカードを購入して、WindowsやMacのようにディレクトリを作成しようかと不安に感じるほどでした。でも思いとどまっています。Chromebookの設計に作業を合わせてみたくなりました。ローカルにディレクトリを作成しないで、ファイルはGoogle Oneに保存、標準のままの構成です。
 上記の画像に表示されているQNAPへのアクセスも簡単です。Chromebooks で使用できるファイル形式と外部デバイス に記載されたクラウド ストレージの手順でQNAPへアクセスできました。AndroidアプリのQfileをインストールしましたがもう使わないでしょう。Androidアプリはできるだけインストールしたくありませんのでありがたいです。
 電源ボタンを押してから現在まで 8月3日に受け取りこの記事をアップロードするまでセッティングを含めてS330をずっと操作しています。S330で事足りています。ただし、ショートカットキーを覚えてキーボードに慣れるまで時間はかかりそう。あとATOK Passportが使えないので広辞苑や英和辞典などの代替を思案中です。
 いま開いているChromeのタブ数は15です。Linux(Debian stretch)のVS Codeを起動しています。動作は安定していて不満はありません。
 割り切る ディスプレイとキーボードの品質は価格相応でしょうから割り切っています。いつも使っているデバイスです。
- Mac mini (2018)  HHKB Professional BT Magic Trackpad 2 CX241  Mac mini(Late 2014) MacBook Pro (Retina, 13-inch, Early 2015) iPad Pro (10.</description>
+ Mac mini (2018)  HHKB Professional BT Magic Trackpad 2 CX241   Mac mini(Late 2014) MacBook Pro (Retina, 13-inch, Early 2015) iPad Pro (10.</description>
     </item>
     
   </channel>

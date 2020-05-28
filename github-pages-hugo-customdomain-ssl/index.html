@@ -1,55 +1,58 @@
 <!DOCTYPE html>
-<html lang='ja'>
-<head>
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65590-6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-65590-6');
-  </script>
+<html lang='ja'><head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
 要件  GitHub Pages &#43; Hugo リポジトリ username.github.io Hugo Theme 独自ドメイン SSL  レシピ  GitHub Pages Basics Hugo | Quick Start Hugo Themes | Minimo GitHub Pages &#43; CloudFlare で独自ドメインをSSL化する  作業 1.GitHub Pages &#43; Hugo
 GitHub Pages Basicsを何度も読みました。
- username.github.io username/repository name  前者と後者、どちらにするか迷いました。
-username.github.io master or gh-pages branchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
-username/repository name /docs folderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
+  &lt;code&gt;username.github.io&lt;/code&gt;    &lt;code&gt;username/repository name&lt;/code&gt;    前者と後者、どちらにするか迷いました。
+username.github.io masteror gh-pagesbranchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
+username/repository name /docsfolderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
  publishDir = &ldquo;docs&rdquo;
- ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
-解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。'>
+ ソースファイルと/docsfolderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
+解釈が間違っているかもと思いつつ、username.github.ioでmasterbranchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。'>
 <meta name='theme-color' content='#c51162'>
 
 <meta property='og:title' content='Hugo &#43; GitHub Pages &#43; カスタムドメイン &#43; SSLでブログを公開するまでのメモ  • jibutare'>
 <meta property='og:description' content='前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
 要件  GitHub Pages &#43; Hugo リポジトリ username.github.io Hugo Theme 独自ドメイン SSL  レシピ  GitHub Pages Basics Hugo | Quick Start Hugo Themes | Minimo GitHub Pages &#43; CloudFlare で独自ドメインをSSL化する  作業 1.GitHub Pages &#43; Hugo
 GitHub Pages Basicsを何度も読みました。
- username.github.io username/repository name  前者と後者、どちらにするか迷いました。
-username.github.io master or gh-pages branchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
-username/repository name /docs folderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
+  &lt;code&gt;username.github.io&lt;/code&gt;    &lt;code&gt;username/repository name&lt;/code&gt;    前者と後者、どちらにするか迷いました。
+username.github.io masteror gh-pagesbranchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
+username/repository name /docsfolderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
  publishDir = &ldquo;docs&rdquo;
- ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
-解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。'>
+ ソースファイルと/docsfolderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
+解釈が間違っているかもと思いつつ、username.github.ioでmasterbranchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。'>
 <meta property='og:url' content='https://jibutare.org/github-pages-hugo-customdomain-ssl/'>
 <meta property='og:site_name' content='jibutare'>
 <meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/fe8c7f1f27321d6b2a1092b5be5ff728?s=256'><meta property='article:author' content='https://facebook.com/jibutare'><meta property='article:publisher' content='1293131047389945'><meta property='article:section' content='docs'><meta property='article:tag' content='Hugo, github'><meta property='article:published_time' content='2017-12-09T20:44:14&#43;09:00'/><meta property='article:modified_time' content='2018-12-04T17:38:49&#43;09:00'/><meta property='fb:app_id' content='120544911367320'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@jibutare'><meta name='twitter:creator' content='@jibutare'>
 
-<meta name="generator" content="Hugo 0.56.3" />
+<meta name="generator" content="Hugo 0.71.0" />
 
   <title>Hugo &#43; GitHub Pages &#43; カスタムドメイン &#43; SSLでブログを公開するまでのメモ  • jibutare</title>
-  <link rel='canonical' href='https://jibutare.org/github-pages-hugo-customdomain-ssl/'>
-  
-  
-  <link rel='icon' href='/favicon.png'>
+  <link rel="canonical" href="https://jibutare.org/github-pages-hugo-customdomain-ssl/" />
+    <link rel='icon' href='/favicon.png'>
 <link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:#c51162;}
 </style>
 
-  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65590-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+ 
 
+  <script
+    data-ad-client="ca-pub-6358005185774681"
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
 </head>
 <body class='page type-docs'>
 
@@ -131,112 +134,91 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
   
 
   <div class='container entry-content'>
-  
-
-<h2 id="前提">前提</h2>
-
-<p>Gitを操作したことないのにGitHub Pagesでブログを公開したい(<small>めちゃくちゃですね</small>)。</p>
-
+  <h2 id="前提">前提</h2>
+<p>Gitを操作したことないのにGitHub Pagesでブログを公開したい(<!-- raw HTML omitted -->めちゃくちゃですね<!-- raw HTML omitted -->)。</p>
 <h2 id="要件">要件</h2>
-
 <ol>
 <li>GitHub Pages + Hugo</li>
-<li>リポジトリ <code>username.github.io</code></li>
+<li>リポジトリ <!-- raw HTML omitted -->username.github.io<!-- raw HTML omitted --></li>
 <li>Hugo Theme</li>
 <li>独自ドメイン</li>
 <li>SSL</li>
 </ol>
-
 <h2 id="レシピ">レシピ</h2>
-
 <ul>
 <li><a href="https://help.github.com/categories/github-pages-basics/">GitHub Pages Basics</a></li>
 <li><a href="https://gohugo.io/getting-started/quick-start/">Hugo  | Quick Start</a></li>
 <li><a href="https://themes.gohugo.io/minimo/">Hugo Themes  | Minimo</a></li>
 <li><a href="https://qiita.com/noraworld/items/89dd85a434a7b759e00c">GitHub Pages + CloudFlare で独自ドメインをSSL化する</a></li>
 </ul>
-
 <h2 id="作業">作業</h2>
-
 <p>1.GitHub Pages + Hugo</p>
-
 <p>GitHub Pages Basicsを何度も読みました。</p>
-
 <ul>
-<li><code>username.github.io</code></li>
-<li><code>username/repository name</code></li>
+<li>
+<pre><code>&lt;code&gt;username.github.io&lt;/code&gt;
+</code></pre>
+</li>
+<li>
+<pre><code>&lt;code&gt;username/repository name&lt;/code&gt;
+</code></pre>
+</li>
 </ul>
-
 <p>前者と後者、どちらにするか迷いました。</p>
-
-<h3 id="username-github-io">username.github.io</h3>
-
-<p><code>master</code> or <code>gh-pages</code> branchを選択する。どちらかのbranchにHugoが生成した<code>/public</code>を公開する。<code>master</code>なら<code>/public</code>をGitHubで管理。<code>gh-pages</code>なら<code>master</code>でソースファイルを管理できる(<small>と解釈しましたが、間違っているかも?!</small>)</p>
-
-<h3 id="username-repository-name">username/repository name</h3>
-
-<p><code>/docs</code> folderへ<code>/public</code>を公開する。その際、Hugoの<code>config.toml</code>に以下を記述すれば、<code>/docs</code>に公開用ファイルを生成する。</p>
-
+<h3 id="usernamegithubio">username.github.io</h3>
+<p><!-- raw HTML omitted -->master<!-- raw HTML omitted --> or <!-- raw HTML omitted -->gh-pages<!-- raw HTML omitted --> branchを選択する。どちらかのbranchにHugoが生成した<!-- raw HTML omitted -->/public<!-- raw HTML omitted -->を公開する。<!-- raw HTML omitted -->master<!-- raw HTML omitted -->なら<!-- raw HTML omitted -->/public<!-- raw HTML omitted -->をGitHubで管理。<!-- raw HTML omitted -->gh-pages<!-- raw HTML omitted -->なら<!-- raw HTML omitted -->master<!-- raw HTML omitted -->でソースファイルを管理できる(<!-- raw HTML omitted -->と解釈しましたが、間違っているかも?!<!-- raw HTML omitted -->)</p>
+<h3 id="usernamerepository-name">username/repository name</h3>
+<p><!-- raw HTML omitted -->/docs<!-- raw HTML omitted --> folderへ<!-- raw HTML omitted -->/public<!-- raw HTML omitted -->を公開する。その際、Hugoの<!-- raw HTML omitted -->config.toml<!-- raw HTML omitted -->に以下を記述すれば、<!-- raw HTML omitted -->/docs<!-- raw HTML omitted -->に公開用ファイルを生成する。</p>
 <blockquote>
 <p>publishDir = &ldquo;docs&rdquo;</p>
 </blockquote>
-
-<p>ソースファイルと<code>/docs</code> folderをGitHubで管理できる(<small>と解釈しましたが、間違っているかも?!</small>)</p>
-
-<p>解釈が間違っているかもと思いつつ、<code>username.github.io</code>で<code>master</code> branchにして、jibutare.orgを運用し、それに慣れてから、<code>username/repository name</code>では、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</p>
-
-<p>2.リポジトリ <code>username.github.io</code></p>
-
-<p><a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">Configuring a publishing source for GitHub Pages</a>の&rdquo;Enabling GitHub Pages to publish your site from <code>master</code> or <code>gh-pages</code>&ldquo;の手順どおりに進めました。</p>
-
+<p>ソースファイルと<!-- raw HTML omitted -->/docs<!-- raw HTML omitted --> folderをGitHubで管理できる(<!-- raw HTML omitted -->と解釈しましたが、間違っているかも?!<!-- raw HTML omitted -->)</p>
+<p>解釈が間違っているかもと思いつつ、<!-- raw HTML omitted -->username.github.io<!-- raw HTML omitted -->で<!-- raw HTML omitted -->master<!-- raw HTML omitted --> branchにして、jibutare.orgを運用し、それに慣れてから、<!-- raw HTML omitted -->username/repository name<!-- raw HTML omitted -->では、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</p>
+<p>2.リポジトリ <!-- raw HTML omitted -->username.github.io<!-- raw HTML omitted --></p>
+<p><a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">Configuring a publishing source for GitHub Pages</a>の&quot;Enabling GitHub Pages to publish your site from <!-- raw HTML omitted -->master<!-- raw HTML omitted --> or <!-- raw HTML omitted -->gh-pages<!-- raw HTML omitted -->&quot;の手順どおりに進めました。</p>
 <p>3.Hugo Theme</p>
-
 <p><a href="https://gohugo.io/getting-started/quick-start/">Hugo  | Quick Start</a>を読み、
 ローカルで動作を確認。</p>
-
-<p>テーマは、<a href="https://themes.gohugo.io/minimo/">Hugo Themes  | Minimo</a>を選びました。カバーイメージが使えるので気に入っています。ドキュメントの記載どおりに<code>config.toml</code>を設定、<code>/theme</code> &gt; <code>/minimo</code>の中身を一つ一つ確かめます。ソースコードの跡を追いかけて、構成を理解していきました。</p>
-
+<p>テーマは、<a href="https://themes.gohugo.io/minimo/">Hugo Themes  | Minimo</a>を選びました。カバーイメージが使えるので気に入っています。ドキュメントの記載どおりに<!-- raw HTML omitted -->config.toml<!-- raw HTML omitted -->を設定、<!-- raw HTML omitted -->/theme<!-- raw HTML omitted --> &gt; <!-- raw HTML omitted -->/minimo<!-- raw HTML omitted -->の中身を一つ一つ確かめます。ソースコードの跡を追いかけて、構成を理解していきました。</p>
 <ul>
-<li>イメージの構成にしたいなら何を追加すればよいのか?</li>
-<li>イメージの構成に必要なメニューの設定は?</li>
-<li>カスタマイズしたいなら何を変更すればよいのか?</li>
+<li>
+<pre><code>イメージの構成にしたいなら何を追加すればよいのか?
+</code></pre>
+</li>
+<li>
+<pre><code>イメージの構成に必要なメニューの設定は?
+</code></pre>
+</li>
+<li>
+<pre><code>カスタマイズしたいなら何を変更すればよいのか?
+</code></pre>
+</li>
 </ul>
-
 <p>テーマのドキュメントと<a href="https://gohugo.io/getting-started/configuration/">Configure Hugo</a>を何度も往来、イメージの構成に近づけました。</p>
-
 <p>4.独自ドメイン</p>
-
-<p><a href="https://jibutare.tumblr.com">tumblrにCNAMEしていた</a>いた<code>jibutare.org</code>をGitHub PagesにCNAMEするために下記を参照。</p>
-
+<p><a href="https://jibutare.tumblr.com">tumblrにCNAMEしていた</a>いた<!-- raw HTML omitted -->jibutare.org<!-- raw HTML omitted -->をGitHub PagesにCNAMEするために下記を参照。</p>
 <p><a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">Quick start: Setting up a custom domain</a></p>
-
 <p>ステップどおりに手続きすればすんなりカスタムドメインでアクセスできました。</p>
-
 <p>5.SSL</p>
-
 <p><a href="https://qiita.com/noraworld/items/89dd85a434a7b759e00c">GitHub Pages + CloudFlare で独自ドメインをSSL化する</a></p>
-
 <p>このページのおかけです。簡潔にわかりやすく記載してくださっていて、ほんとに助かりました。感謝です。</p>
-
 <p>SSLに移行後、http → https へのリダイレクトに気を揉みました。IIJmio(iPhone SE と iPad Pro 10.5で使用)からは数時間ほどでhttpsにアクセスできましたが、自宅の回線はほぼ24時間かかりました。</p>
-
-<hr />
-
+<hr>
 <p>ともあれ、無事、当初の前提をクリアできたので、これからGitを勉強します。</p>
-
 <ul>
-<li><a href="https://git-scm.com/book/ja/v2">Book</a></li>
-<li><a href="http://amzn.to/2BPdNRd">『独習Git』 リック・ウマリ 著 吉川邦夫 訳</a></li>
+<li>
+<pre><code>[Book](https://git-scm.com/book/ja/v2)
+</code></pre>
+</li>
+<li>
+<pre><code>[『独習Git』 リック・ウマリ 著 吉川邦夫 訳](http://amzn.to/2BPdNRd)
+</code></pre>
+</li>
 </ul>
-
-<hr />
-
-<h3 id="2018-12-04-追記">2018/12/04 追記</h3>
-
+<hr>
+<h3 id="20181204-追記">2018/12/04 追記</h3>
 <p>一年近く放置したままになっていたので、そろそろ再開しようと調べていたら、GitHub Pages がHTTPSをサポートしていました(参照:<a href="https://blog.github.com/2018-05-01-github-pages-custom-domains-https/">Custom domains on GitHub Pages gain support for HTTPS</a>)。というわけで、上記の方法を採用していましたが、CloudFlareのCDNとDNSを停止しました。</p>
-
 <h4 id="参照">参照</h4>
-
 <ul>
 <li><a href="https://stakada7.com/post/githug-pages-hugo-custom-domain-https/">GitHub Pages で Hugo &amp; 独自ドメイン &amp; https なブログ環境の構築</a></li>
 <li><a href="https://qiita.com/satzz/items/e24bd703fc04fb45f7ef">HugoとGitHub Pagesで静的サイトを公開する</a></li>
@@ -329,7 +311,7 @@ username/repository name /docs folderへ/publicを公開する。その際、Hug
       </li></ul>
   </nav>
 </section><div class='copyright'>
-  <p> &copy; 2017-2019 jibutare </p>
+  <p> &copy; 2017-2020 jibutare </p>
 </div>
 
         </div>

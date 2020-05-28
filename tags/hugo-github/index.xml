@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo, github on jibutare</title>
@@ -34,12 +34,12 @@ User, Organization, and Project Pages
       <description>前提 Gitを操作したことないのにGitHub Pagesでブログを公開したい(めちゃくちゃですね)。
 要件  GitHub Pages + Hugo リポジトリ username.github.io Hugo Theme 独自ドメイン SSL  レシピ  GitHub Pages Basics Hugo | Quick Start Hugo Themes | Minimo GitHub Pages + CloudFlare で独自ドメインをSSL化する  作業 1.GitHub Pages + Hugo
 GitHub Pages Basicsを何度も読みました。
- username.github.io username/repository name  前者と後者、どちらにするか迷いました。
-username.github.io master or gh-pages branchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
-username/repository name /docs folderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
+  &amp;lt;code&amp;gt;username.github.io&amp;lt;/code&amp;gt;    &amp;lt;code&amp;gt;username/repository name&amp;lt;/code&amp;gt;    前者と後者、どちらにするか迷いました。
+username.github.io masteror gh-pagesbranchを選択する。どちらかのbranchにHugoが生成した/publicを公開する。masterなら/publicをGitHubで管理。gh-pagesならmasterでソースファイルを管理できる(と解釈しましたが、間違っているかも?!)
+username/repository name /docsfolderへ/publicを公開する。その際、Hugoのconfig.tomlに以下を記述すれば、/docsに公開用ファイルを生成する。
  publishDir = &amp;ldquo;docs&amp;rdquo;
- ソースファイルと/docs folderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
-解釈が間違っているかもと思いつつ、username.github.ioでmaster branchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</description>
+ ソースファイルと/docsfolderをGitHubで管理できる(と解釈しましたが、間違っているかも?!)
+解釈が間違っているかもと思いつつ、username.github.ioでmasterbranchにして、jibutare.orgを運用し、それに慣れてから、username/repository nameでは、thinksell.jpを運用することに決めました。thinksell.jpはほとんど更新しないOne Pageのようなイメージです。</description>
     </item>
     
   </channel>

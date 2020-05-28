@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on jibutare</title>
@@ -17,7 +17,7 @@
       <pubDate>Mon, 07 Jan 2019 09:59:34 +0900</pubDate>
       
       <guid>https://jibutare.org/2019/01/hhkb-professional-bt-us/</guid>
-      <description> 昨年、Mac mini 2018を購入したので、それにあわせてキーボードを新調しました。PFU Happy Hacking Keyboard Professional BT 英語配列/墨 PD-KB600Bです。Amazonアウトレットで購入しました。
+      <description>昨年、Mac mini 2018を購入したので、それにあわせてキーボードを新調しました。PFU Happy Hacking Keyboard Professional BT 英語配列/墨 PD-KB600Bです。Amazonアウトレットで購入しました。
 コンディションは
  商品の上部に小さな傷があります. 商品の下部に小さな傷があります. 外装に多少の損傷があります.
  と記述されていました。到着後、ざっと見たところ傷を判別できません。墨モデルで見つけにくいのかもしれません。外装は説明どおりでした。
@@ -45,7 +45,7 @@ FILCOのキーボードを使ってみたいが&amp;hellip; ところで、Happy
  3.0GHz 6コア第8世代Intel Core i5（Turbo Boost使用時最大4.1GHz） 16GB 2,666MHz DDR4 Intel UHD Graphics 630 256GB SSDストレージ ギガビットEthernet（10/100/1000BASE-TギガビットEthernet、RJ‑45コネクタ使用） アクセサリキット  いま使用中は、Mac mini Late 2014です。
 システム構成:
  2.6GHzデュアルコアIntel Core i5（Turbo Boost使用時最大3.1GHz） 16GB 1,600MHz LPDDR3 SDRAM 256GB PCIeベースフラッシュストレージ Intel Iris Graphics 製品マニュアル アクセサリキット  起動と表示、すべての動作の体感速度が向上しました。ひっかかりがないといいますか、自転車の走行を右から左へ流し見ていたところ、いまは自動車がビュンと通り過ぎるのを流し見るような感覚です(意味不明ですかね)。
-最初の違和感は起動音でした。いつものジャーンが聞こえないので、知っていたとはいえ、すこし戸惑いました。特にNVRAMまたPRAMをリセットするときに、2回目の起動音を目安にして操作しているので最初は不思議な感覚です。あとSMCリセットの操作方法が、これまで使ってきたMacと違います。
+最初の違和感は起動音でした。いつものジャーンが聞こえないので、知っていたとはいえ、すこし戸惑いました。特に[NVRAMまたPRAMをリセットする](Mac で NVRAM または PRAM をリセットする )ときに、2回目の起動音を目安にして操作しているので最初は不思議な感覚です。あとSMCリセットの操作方法が、これまで使ってきたMacと違います。
 ささいな問題がひとつ USB3.1 Gen2に、ineo 2.5インチアルミニウムHDD/SSD用の SATA外付けハードドライブケ―スにSDSSDH3-500G-J25を格納して接続しています。ところが、この外付けケースを接続したまま起動させると、ブートのリンゴマークが表示されまま起動しません。
 電流の影響でしょうか? ログを調べたら原因を突き止められそうですが、めんどうなので推測にとどめています。いったん外して起動させて、ログイン画面で再接続しています。ずっと起動させてたまま使っているため、それほど手間でもありません。通常は週に一度、再起動させています。
 Mac miniはPowerPC G4版から使い始めて4台目です。これまで
