@@ -6,10 +6,28 @@
     <description>Recent content in Tags on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Aug 2019 14:50:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 20:19:23 +0900</lastBuildDate>
     
 	<atom:link href="https://jibutare.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>windows</title>
+      <link>https://jibutare.org/tags/windows/</link>
+      <pubDate>Sun, 01 Dec 2019 20:19:23 +0900</pubDate>
+      
+      <guid>https://jibutare.org/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssd</title>
+      <link>https://jibutare.org/tags/ssd/</link>
+      <pubDate>Sun, 10 Nov 2019 20:56:27 +0900</pubDate>
+      
+      <guid>https://jibutare.org/tags/ssd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chromebook</title>
@@ -17,15 +35,6 @@
       <pubDate>Tue, 06 Aug 2019 14:50:44 +0900</pubDate>
       
       <guid>https://jibutare.org/tags/chromebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>purchase</title>
-      <link>https://jibutare.org/tags/purchase/</link>
-      <pubDate>Sun, 04 Aug 2019 14:22:31 +0900</pubDate>
-      
-      <guid>https://jibutare.org/tags/purchase/</guid>
       <description></description>
     </item>
     
@@ -48,11 +57,11 @@
     </item>
     
     <item>
-      <title>Hugoの設定</title>
-      <link>https://jibutare.org/tags/hugo/</link>
-      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      <title>purchase</title>
+      <link>https://jibutare.org/tags/purchase/</link>
+      <pubDate>Fri, 21 Jun 2019 17:05:13 +0900</pubDate>
       
-      <guid>https://jibutare.org/tags/hugo/</guid>
+      <guid>https://jibutare.org/tags/purchase/</guid>
       <description></description>
     </item>
     
@@ -80,6 +89,15 @@
       <pubDate>Wed, 06 Dec 2017 18:07:38 +0900</pubDate>
       
       <guid>https://jibutare.org/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugoの設定</title>
+      <link>https://jibutare.org/tags/hugo/</link>
+      <pubDate>Fri, 01 Dec 2017 18:17:56 +0900</pubDate>
+      
+      <guid>https://jibutare.org/tags/hugo/</guid>
       <description></description>
     </item>
     
