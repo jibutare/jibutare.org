@@ -5,11 +5,7 @@
     <link>https://jibutare.org/page/</link>
     <description>Recent content in Pages on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    
-	<atom:link href="https://jibutare.org/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ja</language><atom:link href="https://jibutare.org/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>誰?</title>
       <link>https://jibutare.org/%E8%AA%B0/</link>

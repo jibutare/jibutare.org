@@ -6,10 +6,21 @@
     <description>Recent content on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 29 May 2020 16:05:16 +0900</lastBuildDate>
-    
-	<atom:link href="https://jibutare.org/authors/jibutare/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 21 Nov 2020 14:57:45 +0900</lastBuildDate><atom:link href="https://jibutare.org/authors/jibutare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCの環境構築を試行錯誤中</title>
+      <link>https://jibutare.org/2020/11/built-environment/</link>
+      <pubDate>Sat, 21 Nov 2020 14:57:45 +0900</pubDate>
+      
+      <guid>https://jibutare.org/2020/11/built-environment/</guid>
+      <description>複数のPCを所有しているとき、環境構築はどうしていますか? ここでの環境は、開発環境ではなく、使い勝手のよいとぐらいのニュアンスです。
+たとえば文書や写真は、クラウドストレージサービスやNASを利用してマネジメントできますし、バージョン管理は、git でしょうか?
+なぜこの質問が浮かんだのかといいますと、Lenovo Chromebook S330 の購入がきっかけです。驚きの体験でした。S330 を開封して起動したらすぐに使えました。Windows や macOS は初回時、「セットアップ」が必要です。ChromeOS は起動して、Google アカウントでログイン、Chrome でアレコレできます。仮に初期化しても、Google アカウントでログインすれば、すぐに使えます。一般家庭用なら十分ですし、業務用でも使えそうです。
+ためしに Crostini を起動すると、ruby, node, code-oss まで、滞りなくセットアップできます。また Linux コンテナをバックアップできるので、別の Chromebook に復元できるのでしょう。
+もし、複数台の Chromebook を所有しているなら、Google アカウントで環境を同期して、どれを使ってもほぼ同じ使い勝手だろうと想像できました。
+とはいえ、現在の業務を Chromebook に置き換えられないので、発想を参考にして、どうすれば使い勝手のよい環境を構築できる?と指向しはじめました。
+設計  NAS , クラウドストレージサービス, 外付けHDD の用途別管理 アプリケーションは最小限にして統一 ディレクトリの構造を統一 制作ファイルは bitbucket と github で管理  設計より先に試行錯誤しはじめてしまったため、混乱しそうなので、備忘録としてまとめました。</description>
+    </item>
     
     <item>
       <title>FUJIFILM X-H1を購入しました</title>
@@ -66,7 +77,7 @@ Mac mini 2018 に接続しています。ORICO USB-C NVME M.2 SSD ケース に 
  はじめてのノートパソコンにChromebookはすすめられるか?
  おすすめできます。Androidのスマートフォンを使っている方はChromebookのUIと操作が似ているので慣れるまで早いと推測します。もともと教育機関で普及していますからどなたにでもおすすめできてあたりまえですが、UIや操作に慣れるまでの時間が短くなれば、その後のアプリケーションの使い方も覚えやすいと思います。
 Chrome OSの設計はシンプルです。あまり迷いません。とにかく 検索 キー を押せば、インストールされているアプリがスマートフォンの画面のように表示されます。したいことを選べます。シェルフ(タスクバーやDockと同じ)からも選べます。
- 文章を作成したいなら 検索 キー を押して&amp;quot;ドキュメント&amp;rdquo; 表計算を作成しいなら 検索 キー を押して&amp;quot;スプレッドシート&amp;rdquo; 動画を検索したいなら 検索 キー を押して&amp;quot;YouTube&amp;rdquo;  作業のアプリをクリックすれば、Chromeが起動して誘導します。作業はChromeに集約されます。当初、私はたじろぎました。Windows, Mac, Android, iOSのように各アプリケーションが起動しないからです。Chromeでの作業は不便に感じます。でもChromeに集中できます(ただしGoogle KeepやPlay系はアプリケーションが起動)。Chromeのショートカットキーを覚えたらアプリケーションとタブをスムーズに移動できて操作の効率が上がりそうです。
+ 文章を作成したいなら 検索 キー を押して&amp;quot;ドキュメント&amp;quot; 表計算を作成しいなら 検索 キー を押して&amp;quot;スプレッドシート&amp;quot; 動画を検索したいなら 検索 キー を押して&amp;quot;YouTube&amp;quot;  作業のアプリをクリックすれば、Chromeが起動して誘導します。作業はChromeに集約されます。当初、私はたじろぎました。Windows, Mac, Android, iOSのように各アプリケーションが起動しないからです。Chromeでの作業は不便に感じます。でもChromeに集中できます(ただしGoogle KeepやPlay系はアプリケーションが起動)。Chromeのショートカットキーを覚えたらアプリケーションとタブをスムーズに移動できて操作の効率が上がりそうです。
  Chromeが起動する Chromeにアプリケーションの画面が表示される Chromeで作業する  この3点がChromebookに慣れるまでの時間を短くしてくれます。Androidのアプリケーションをインストールすれば、スマートフォンと同じように各アプリケーションが起動します。まずはChromeでできることをマスターしてみてください。おすすめです。
 はじめてパソコンを購入した知人 はじめてパソコンを購入した方は、
  操作 発想  に戸惑われます。デスクトップの画面を目にして直感的に操作できなければ、したいことまで進めません。また、できることを発想するまで時間がかかります。

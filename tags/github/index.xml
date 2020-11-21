@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on jibutare</title>
     <link>https://jibutare.org/tags/github/</link>
     <description>Recent content in github on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Jun 2019 16:50:56 +0900</lastBuildDate>
-    
-	<atom:link href="https://jibutare.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ja</language>
+    <lastBuildDate>Sat, 21 Nov 2020 14:57:45 +0900</lastBuildDate><atom:link href="https://jibutare.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>&lt;username&gt;.github.ioにカスタムドメインを割り当てない </title>
-      <link>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</link>
-      <pubDate>Sun, 23 Jun 2019 16:50:56 +0900</pubDate>
+      <title>PCの環境構築を試行錯誤中</title>
+      <link>https://jibutare.org/2020/11/built-environment/</link>
+      <pubDate>Sat, 21 Nov 2020 14:57:45 +0900</pubDate>
       
-      <guid>https://jibutare.org/2019/06/username.github.io-customdomain-ng/</guid>
-      <description>GitHub Pages でブログを運用するとき
-&amp;lt;username&amp;gt;.github.io  に、カスタムドメインを割り当てていました。当初は理解しないで見よう見まねで公開できて喜んでいたのですが、今となっては不便です。
-User, Organization, and Project Pages
-というのも、もう一つカスタムドメインを割り当てたくても
-&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname&amp;gt;  には無理ですね(あたりまえなのですが&amp;hellip;)。なので
-&amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-A&amp;gt; = a.com &amp;lt;username&amp;gt;.github.io/&amp;lt;projectname-B&amp;gt; = b.com  こういう形式を採用しなければならないとようやく理解できました。というわけで、さっそくデータを引っ越しました。</description>
+      <guid>https://jibutare.org/2020/11/built-environment/</guid>
+      <description>複数のPCを所有しているとき、環境構築はどうしていますか? ここでの環境は、開発環境ではなく、使い勝手のよいとぐらいのニュアンスです。
+たとえば文書や写真は、クラウドストレージサービスやNASを利用してマネジメントできますし、バージョン管理は、git でしょうか?
+なぜこの質問が浮かんだのかといいますと、Lenovo Chromebook S330 の購入がきっかけです。驚きの体験でした。S330 を開封して起動したらすぐに使えました。Windows や macOS は初回時、「セットアップ」が必要です。ChromeOS は起動して、Google アカウントでログイン、Chrome でアレコレできます。仮に初期化しても、Google アカウントでログインすれば、すぐに使えます。一般家庭用なら十分ですし、業務用でも使えそうです。
+ためしに Crostini を起動すると、ruby, node, code-oss まで、滞りなくセットアップできます。また Linux コンテナをバックアップできるので、別の Chromebook に復元できるのでしょう。
+もし、複数台の Chromebook を所有しているなら、Google アカウントで環境を同期して、どれを使ってもほぼ同じ使い勝手だろうと想像できました。
+とはいえ、現在の業務を Chromebook に置き換えられないので、発想を参考にして、どうすれば使い勝手のよい環境を構築できる?と指向しはじめました。
+設計  NAS , クラウドストレージサービス, 外付けHDD の用途別管理 アプリケーションは最小限にして統一 ディレクトリの構造を統一 制作ファイルは bitbucket と github で管理  設計より先に試行錯誤しはじめてしまったため、混乱しそうなので、備忘録としてまとめました。</description>
     </item>
     
   </channel>
