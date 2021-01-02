@@ -6,7 +6,16 @@
     <description>Recent content in Categories on jibutare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Nov 2020 14:57:45 +0900</lastBuildDate><atom:link href="https://jibutare.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 16:02:59 +0900</lastBuildDate><atom:link href="https://jibutare.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>device</title>
+      <link>https://jibutare.org/categories/device/</link>
+      <pubDate>Sat, 02 Jan 2021 16:02:59 +0900</pubDate>
+      
+      <guid>https://jibutare.org/categories/device/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Misc</title>
       <link>https://jibutare.org/categories/misc/</link>
@@ -22,15 +31,6 @@
       <pubDate>Fri, 29 May 2020 16:05:16 +0900</pubDate>
       
       <guid>https://jibutare.org/categories/camera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>device</title>
-      <link>https://jibutare.org/categories/device/</link>
-      <pubDate>Sun, 01 Dec 2019 20:19:23 +0900</pubDate>
-      
-      <guid>https://jibutare.org/categories/device/</guid>
       <description></description>
     </item>
     
