@@ -4,12 +4,12 @@
   
   <url>
     <loc>https://jibutare.org/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://jibutare.org/diary/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
   </url>
   
   <url>
@@ -27,21 +27,41 @@
   
   <url>
     <loc>https://jibutare.org/authors/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jibutare.org/tags/book/</loc>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://jibutare.org/categories/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jibutare.org/categories/device/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
+    <loc>https://jibutare.org/categories/diary/</loc>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://jibutare.org/authors/jibutare/</loc>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jibutare.org/tags/</loc>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jibutare.org/2021/01/%E6%89%8B%E3%81%AE%E5%80%AB%E7%90%86/</loc>
+    <lastmod>2021-01-24T15:55:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jibutare.org/categories/device/</loc>
     <lastmod>2021-01-02T16:02:59+09:00</lastmod>
   </url>
   
@@ -52,11 +72,6 @@
   
   <url>
     <loc>https://jibutare.org/tags/mac/</loc>
-    <lastmod>2021-01-02T16:02:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jibutare.org/tags/</loc>
     <lastmod>2021-01-02T16:02:59+09:00</lastmod>
   </url>
   
